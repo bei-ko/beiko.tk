@@ -5,6 +5,17 @@
         p {
             color: white; 
         }
+		.overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 191, 255, 0.7);
+  padding: 20px;
+  color: #fff;
+  width:20%;
+  height:80%;
+}
     </style>
 </head>
 <body>
@@ -15,12 +26,26 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-</style>
-	<p>施工ing</p>
-	<p>
+@media (max-width: 600px) {
+  body {
+    background-size: auto 100%;
+    background-position: center center;
+  }
+}</style>
+	
+	
+	
+	
+	<div class="container">
+    <div class="overlay">
+      <h1>施工ing</h1>
+      <p>
 		这里暂时什么也没有哦
 		awa
 	</p>
-	<p>我放在这里一只恋恋，如果你无聊，你可以摸摸她，但注意不要把她摸死了，也不要把她吓跑哦</p>
-	<img src="https://i.postimg.cc/MpKhqmq2/1200.jpg" width=150>
+ <p>我放在这里一只恋恋，如果你无聊，你可以摸摸她，但注意不要把她摸死了，也不要把她吓跑哦</p>
+<img src="https://i.postimg.cc/MpKhqmq2/1200.jpg" width="150">
+    </div>
+
+</div>
 </body>
