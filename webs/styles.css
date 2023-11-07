@@ -1,0 +1,28 @@
+
+        p {
+            color: white; 
+        }
+		.overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 191, 255, 0.7);
+  padding: 20px;
+  color: #fff;
+  width:20%;
+  height:80%;
+}
+    
+body {
+  background-image: url('https://i.postimg.cc/xd6G8BKy/12.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media (max-width: 600px) {
+  body {
+    background-size: auto 100%;
+    background-position: center center;
+  }
+}
