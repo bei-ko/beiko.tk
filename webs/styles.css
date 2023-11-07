@@ -20,7 +20,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   body {
     background-size: auto 100%;
     background-position: center center;
