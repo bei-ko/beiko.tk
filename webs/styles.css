@@ -18,10 +18,9 @@ body {
   background-image: url('https://i.postimg.cc/xd6G8BKy/12.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
-  background-position:center;
+  background-size: cover;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     background-size: auto 100%;
     background-position: center center;
