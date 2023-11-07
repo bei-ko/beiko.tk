@@ -4,14 +4,14 @@ color: white;
      }
 	.overlay {
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 60%;
+  left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 191, 255, 0.7);
   padding: 20px;
   color: #fff;
-  width:15%;
-  height:80%;
+  width:75%;
+  height:1000%;
 }
     
 body {
