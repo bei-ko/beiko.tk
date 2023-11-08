@@ -13,7 +13,14 @@ color: white;
   width:75%;
   height:1000px;
 }
-    
+  .overlay img.a {
+  width: 100px;
+  height: auto;
+}  
+.overlay img.b {
+  width: 150px;
+  height: auto;
+} 
 body {
   background-image: url('https://i.postimg.cc/xd6G8BKy/12.jpg');
   background-repeat: no-repeat;
@@ -37,6 +44,16 @@ body {
   width:80%;
   height:80%;
   font-size: 40px;
-  user-scalable: no; 
+ }
+.overlay img.a {
+  width: 200px;
+  height: auto;
+}  
+.overlay img.b {
+  width: 400px;
+  height: auto;
+} 
+.scrollable-container {
+  overflow: scroll;
 }
 }
