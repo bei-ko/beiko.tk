@@ -35,14 +35,14 @@ body {
   }
   .overlay {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 191, 255, 0.7);
   padding: 20px;
   color: #fff;
   width:80%;
-  height:80%;
+  height:110%;
   font-size: 40px;
  }
 .overlay img.a {
