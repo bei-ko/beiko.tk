@@ -14,46 +14,12 @@ color: white;
   height:1000px;
 }
   .overlay img.a {
-  width: 100px;
-  height: auto;
-}  
-.overlay img.b {
   width: 150px;
   height: auto;
-} 
-body {
-  background-image: url('./12.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  user-scalable: no; 
-}
-@media (max-width: 1000px) {
-  body {
-    background-size: auto 100%;
-    background-position: center center;
-  }
-  .overlay {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 191, 255, 0.7);
-  padding: 20px;
-  color: #fff;
-  width:80%;
-  height:110%;
-  font-size: 40px;
- }
-.overlay img.a {
-  width: 200px;
-  height: auto;
 }  
-.overlay img.b {
-  width: 400px;
-  height: auto;
-} 
-.scrollable-container {
-  overflow: scroll;
+.ccc {
+  font-size: 30px;
 }
+.overlay h1{
+  font-size: 30;
 }
