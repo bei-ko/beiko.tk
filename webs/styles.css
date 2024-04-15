@@ -4,7 +4,7 @@ color: white;
      }
 	.overlay {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 191, 255, 0.3);
@@ -12,7 +12,7 @@ color: white;
   padding: 20px;
   color: #fff;
   width:75%;
-  height:1100px;
+  height:1300px;
 }
   .overlay img.a {
   width: 150px;
