@@ -1,0 +1,19 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>bei_koの小站</title>
+	<link rel="icon" href=".\img\1.jpg" />
+	<link rel="stylesheet" type="text/css" href=".\webs\styles.css">
+	<link rel="stylesheet" type="text/css" href=".\webs\media.css">
+	<link rel="stylesheet" type="text/css" href=".\webs\all.css">
+    <?php require '.\webs\my_script.php'; ?>
+</head>
+<body>
+    <img id="random-image" style ="width: 100%;">
+  <script>
+    const images = [116028405, 116736510, 94993093,105733280,108102323,108129119,104320869,105760277,106479860,107240628,108131388,113785762,103734975,113540853,112727189,106821828,106697735,113335506,113539163,113138905,71217584,109702435,112243639,77992108];
+
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+
+    document.getElementById("random-image").src = `https://pixiv.re/${randomImage}.jpg`;
+  </script>
+</body>
