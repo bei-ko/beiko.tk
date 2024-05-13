@@ -13,11 +13,11 @@
 	<div id="particle-container"></div>
 	<script src="./webs/lizi.js"></script>
 	<div class="draggable-image" id="myImage"></div>
-	<!--<audio id="audio" src="webs/koishi.mp3"></audio>-->
+	<audio id="audio" src="webs/koishi.mp3"></audio>
 	<script src="./webs/koishi.js"></script>
-	<audio id="myAudio" controls>
+	<!--<audio id="myAudio" controls>
 		<source src="https://upload.thwiki.cc/7/70/th11_15.mp3" type="audio/mpeg">
-	</audio>
+	</audio>-->
 	<!--这条线以上是网页效果的代码-->
 	<div class="container">
    	 <div class="overlay">
@@ -120,7 +120,7 @@
 </div>
 <script>
 	//加在最后可有效避免异步问题
-	const bgMusic = new Audio('webs/koishi.mp3');
+	const bgMusic = new Audio('https://upload.thwiki.cc/7/70/th11_15.mp3');
 	//实例化Audio类
 	bgMusic.play();
 	//引用动态对象
