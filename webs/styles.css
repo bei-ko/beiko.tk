@@ -24,3 +24,8 @@ color: white;
 .overlay h1{
   font-size: 30;
 }
+body {
+  cursor: url('mouse.png'), auto;
+  
+}
+
